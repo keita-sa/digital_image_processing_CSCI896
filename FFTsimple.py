@@ -5,7 +5,7 @@ fs = 100 #  sampling frequency[Hz]
 T = 1/fs # Sampling period[sec]
 PI = np.pi
 # Frequencies[Hz]
-f1 = 10; f2 = 20; f3 = 40
+f1 = 10; f2 = 20; f3 = 60
 # Amplitudes
 A1 = 1; A2 = 0.5; A3 = 0.8
 # time
@@ -21,6 +21,7 @@ plt.plot(t, x)
 
 # FFT
 F = np.fft.fft(x)
+print(F)
 
 # amplitude
 amp = 2*np.abs(F)/N
@@ -30,6 +31,6 @@ freq = np.linspace(0, fs, N)
 fig = plt.figure(figsize=(10, 5))
 plt.xlabel('frequency f[Hz]', fontsize=15)
 plt.ylabel('amplitude spectrum', fontsize=15)
-plt.plot(freq, amp)
-#plt.plot(freq[:int(N/2)+1], amp[:int(N/2)+1])
+#plt.plot(freq, amp)
+plt.plot(freq[:int(N/2)+1], amp[:int(N/2)+1])
 plt.show()
