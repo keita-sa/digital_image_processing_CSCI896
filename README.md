@@ -6,6 +6,7 @@ Here, *ƒ* is the frequency.
 
 When this integral exists, it is called the Fourier transform of 𝑥(𝑡).
 </br>
+<br>
 **Cardinal Sine (sinc) Function**\
 <br>
 The sinc function is frequently encountered in signal processing. It is defined as:
