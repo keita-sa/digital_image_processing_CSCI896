@@ -1,8 +1,7 @@
 **Fourier transform of x(t)**\
 <br>
-$$
-\hat{x} = \int_{-\infty}^{\infty} x t e^{-2\pi i f t} \, dt
-$$
+![Screenshot 2024-12-02 at 18 58 33](https://github.com/user-attachments/assets/ac50ba85-2a15-4dd3-8146-05a11b0e1a0c)
+
 
 ## References
 Masahiro Kaminaga. 2020. *Fourier Analysis and Signal Processing with Python*. CORONA PUBLISHING CO., LTD.
