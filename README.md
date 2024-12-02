@@ -1,4 +1,4 @@
-**Fourier transform of**
+**Fourier transform of**\
 $$hat\{x} = \int_{-\infty}^{\infty} f(t) e^{-i \omega t} \, dt$$
 
 ## References
