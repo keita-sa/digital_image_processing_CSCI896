@@ -1,5 +1,7 @@
-**Fourier transform of x(t)**\
+**Fourier transform formula**\
 <br>
+Here, ƒ is the frequency.
+
 ![Screenshot 2024-12-02 at 18 58 33](https://github.com/user-attachments/assets/ac50ba85-2a15-4dd3-8146-05a11b0e1a0c)
 
 When this integral exists, it is called the Fourier transform of 𝑥(𝑡).
