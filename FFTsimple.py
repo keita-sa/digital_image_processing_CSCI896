@@ -5,7 +5,7 @@ fs = 100 #  sampling frequency[Hz]
 T = 1/fs # Sampling period[sec]
 PI = np.pi
 # Frequencies[Hz]
-f1 = 10; f2 = 20; f3 = 70
+f1 = 10; f2 = 20; f3 = 40
 # Amplitudes
 A1 = 1; A2 = 0.5; A3 = 0.8
 # time
