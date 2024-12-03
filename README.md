@@ -17,6 +17,7 @@ The sinc function is frequently encountered in signal processing. It is defined 
 
 **▪️ Definition**: A real-valued function $x(t)$ is said to be bandlimited to the frequency range $[-f_N, f_N ](f_N > 0)$ if its Fourier transform $$\hat{x}(f）$$ is $0$ for $$|f|> f_N$$.
 <br>
+
 </br>
 **▪️ Sampling Theorem**: If a real-valued function $𝑥(𝑡)$ is bandlimited to the frequency
 range $[−𝑓_𝑁, 𝑓_𝑁]$ and satisfies:
