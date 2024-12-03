@@ -14,8 +14,7 @@ The sinc function is frequently encountered in signal processing. It is defined 
 ![Screenshot 2024-12-02 at 22 07 33](https://github.com/user-attachments/assets/a72ef406-1bb1-4bec-b2a8-e90b9c6abca6)
 
 
-Definition: A real-valued function x(t) is said to be bandlimited to the frequency range [-f_(N,   ) f_N ](f_N>0) if its Fourier transform x ̂（f） is zero for |f|> f_N.![image](https://github.com/user-attachments/assets/b9700c44-c0bd-476f-87b8-7f5d1336cf5a)
-
+**Definition** A real-valued function x(t) is said to be bandlimited to the frequency range [-f_(N,   ) f_N ](f_N>0) if its Fourier transform x ̂（f） is zero for |f|> f_N.
 
 ## References
 Masahiro Kaminaga. 2020. *Fourier Analysis and Signal Processing with Python*. CORONA PUBLISHING CO., LTD.
