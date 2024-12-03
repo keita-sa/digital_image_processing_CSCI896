@@ -22,7 +22,7 @@ The sinc function is frequently encountered in signal processing. It is defined 
 range $[−𝑓_𝑁, 𝑓_𝑁]$ and satisfies:
 ![Screenshot 2024-12-03 at 10 46 12](https://github.com/user-attachments/assets/00178384-e776-4b25-b03b-4b55156ea869)
 
-with $∆t=  1 / (2f_N)$ and $t_n=n∆t$, then $x(t)$ can be reconstructed as:
+with $∆t=  \dfrac{1}{2f_N}$ and $t_n=n∆t$, then $x(t)$ can be reconstructed as:
 
 ![Screenshot 2024-12-03 at 10 47 47](https://github.com/user-attachments/assets/b0624309-6972-4e09-9c6d-6808337b36c9)
 
