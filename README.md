@@ -7,6 +7,7 @@ Here, *ƒ* is the frequency.
 When this integral exists, it is called the Fourier transform of 𝑥(𝑡).
 </br>
 <br>
+</br>
 **▪️ Cardinal Sine (sinc) Function**\
 <br>
 The sinc function is frequently encountered in signal processing. It is defined as:
@@ -15,6 +16,9 @@ The sinc function is frequently encountered in signal processing. It is defined 
 
 
 **▪️ Definition**: A real-valued function $x(t)$ is said to be bandlimited to the frequency range $[-f_N, f_N ](f_N > 0)$ if its Fourier transform $$\hat{x}(f）$$ is $0$ for $$|f|> f_N$$.
+
+**▪️ Sampling Theorem**: If a real-valued function $𝑥(𝑡)$ is bandlimited to the frequency
+range $[−𝑓𝑁, 𝑓𝑁]$ and satisfies:
 
 ## References
 Masahiro Kaminaga. 2020. *Fourier Analysis and Signal Processing with Python*. CORONA PUBLISHING CO., LTD.
