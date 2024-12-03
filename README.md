@@ -19,6 +19,7 @@ The sinc function is frequently encountered in signal processing. It is defined 
 <br>
 
 </br>
+
 **▪️ Sampling Theorem**: If a real-valued function $𝑥(𝑡)$ is bandlimited to the frequency
 range $[−𝑓_𝑁, 𝑓_𝑁]$ and satisfies:
 ![Screenshot 2024-12-03 at 10 46 12](https://github.com/user-attachments/assets/00178384-e776-4b25-b03b-4b55156ea869)
