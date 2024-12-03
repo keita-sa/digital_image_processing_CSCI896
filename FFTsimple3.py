@@ -5,9 +5,9 @@ fs = 100 #  sampling frequency[Hz]
 T = 1/fs # Sampling period[sec]
 PI = np.pi
 # Frequencies[Hz]
-f1 = 10; f2 = 20; f3 = 60
+f1 = 10; f2 = 20; f3 = 70
 # Amplitudes
-A1 = 1; A2 = 0.5; A3 = 0.8
+A1 = 1.2; A2 = 0.2; A3 = 0.7
 # time
 t = np.arange(0, N*T, T)
 # signal
@@ -30,6 +30,15 @@ freq = np.linspace(0, fs, N)
 fig = plt.figure(figsize=(10, 5))
 plt.xlabel('frequency f[Hz]', fontsize=15)
 plt.ylabel('amplitude spectrum', fontsize=15)
+plt.grid()  # Add grid lines
 #plt.plot(freq, amp)
 plt.plot(freq[:int(N/2)+1], amp[:int(N/2)+1])
+# Find peaks
+peaks = np.argsort(amp[:int(N/2)+1])[-3:]  # Get indices of the 3 largest peaks
+for peak in peaks:
+    plt.annotate(f'{freq[peak]:.1f} Hz',  # Annotate frequency value
+                 xy=(freq[peak], amp[peak]),
+                 xytext=(freq[peak]+5, amp[peak]+0.1),
+                 arrowprops=dict(facecolor='red', arrowstyle='->'),
+                 fontsize=12)
 plt.show()
