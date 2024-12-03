@@ -1,4 +1,4 @@
-**- Fourier transform formula**\
+**▪️ Fourier transform formula**\
 <br>
 Here, *ƒ* is the frequency.
 
